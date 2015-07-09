@@ -1,0 +1,2 @@
+# blogpersonal
+blog  portafolio personal
