@@ -8,9 +8,5 @@ $(document).ready(function() {
 			$('.menu').removeClass('menu-fixed');
 		}
 	});
-
-
-
-	
 })
 
