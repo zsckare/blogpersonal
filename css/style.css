@@ -14,12 +14,20 @@
 	.container p {
 		margin-bottom: 50px;
 	}
+
 header .cabezera {
 	width: 100%;
 }
+	header .info{
+	position: absolute;
+	top: 5em;
+	left: 3em;
+	}
 	header .cabezera img{
+		
 		width: 100%;
 		height: 20em;
+
 	}
 header nav {
 	margin-top: -5px;
@@ -50,6 +58,7 @@ header nav {
 			header nav ul li a:hover{
 				background-color: #e74c3c;
 			}
+
 .menu-fixed{
 	position: fixed;
 	z-index: 1000;
@@ -58,6 +67,82 @@ header nav {
 	width: 100%;
 	box-shadow: 0px 2px 1px rgba(0,0,0,0.2);
 }
-.menu-fixed nav ul li a{
-	padding: .6em 1.2em;
+	.menu-fixed nav ul li a{
+		padding: .6em 1.2em;
+	}
+.info p{
+	color: #c5c5c5;
+	font-family: 'Slabo 27px', serif;
+	font-size: 2.5em;
+	text-shadow: 0px 1px #000 !important;
+	max-height: 100%;
+}
+.masinfo{
+	color: #ccc!important;
+	font-family: 'Abel', sans-serif !important;
+	font-size: 1.5em !important;
+	text-shadow: 0px 1px #000 !important;
+}
+.masinfoplus{
+	color: #fff !important;	
+	font-family: 'Abel', sans-serif !important;
+	font-size: 1.2em !important;
+	text-shadow: 1px 1px #000 !important;
+}
+.nav-mobile{
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 20em;
+	height: 100%;
+	background-color: #c0392b;
+}
+	.nav-mobile ul{
+		list-style: none;
+		width: 100%;
+	}
+	.nav-mobile ul li{
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 3em;
+	
+	}
+	.nav-mobile ul li a{
+		height: auto;
+		width: auto;
+		padding: 1.2em ;
+		color: #fff;
+		font-family: 'Lato', sans-serif;
+		text-decoration: none;
+		-webkit-transition: all ease .5s;
+		-o-transition: all ease .5s;
+		transition: all ease .5s;
+	}
+	.nav-mobile ul li a:hover{
+		background-color: #e74c3c;
+	}
+#menu-mobile{
+	display: none;
+	position: fixed;
+	top: .5em;
+	right: .5em;
+	border: none;
+	padding: .3em;
+	background-color: #c0392b;	
+	font-size: 2em;
+	box-shadow: 0px 5px 5px #888888;
+}
+	#menu-mobile:hover{
+	}
+
+@media screen and (max-width: 480px) {
+    header nav {
+       display: none;
+    }
+}
+@media screen and (max-width: 480px) {
+    #menu-mobile{
+       display: block;
+    }
 }
