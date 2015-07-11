@@ -73,7 +73,7 @@
       margin-left: 91.66667%; }
     .row .col.offset-s12 {
       margin-left: 100%; }
-    @media only screen and (min-width : 601px) {
+    @media only screen and (min-width : 651px) {
       .row .col.m1 {
         width: 8.33333%;
         margin-left: 0; }
