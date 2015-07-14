@@ -6,6 +6,7 @@
 		<title><?php echo $pagetitle; ?></title>
 		<link rel="stylesheet" href="../css/style.css">
 		<link rel="stylesheet" href="../css/rows.css">
+		<link rel="stylesheet" href="../css/colors.css">
 		<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 		<!-- Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -16,6 +17,7 @@
 		<script src="../js/main.js"></script>
 		<script src="../js/menu.js"></script>
 		<script src="../js/script.js"></script>
+		<script src="../js/file.js"></script>
 	</head>
 	<body>
 <header>
@@ -27,6 +29,7 @@
 	<div class="cabezera">
 	<div class="form_container">
 		<div class="slideContainer">
+			<div class="slide" data-background="../img/06-large.jpg"></div>
 			<div class="slide" data-background="../img/header.jpg"></div>
 			<div class="slide" data-background="../cf_002.jpg"></div>
 			<div class="slide" data-background="../cf_003.jpg"></div>
@@ -38,10 +41,11 @@
 	</div>
 	<nav class="menu" >
 		<ul class="container"  >
-			<li><a href=""><i class="ion-android-home izq "></i>Inicio</a></li>
-			<li><a href=""><i class="ion-briefcase izq"></i>Portafolio</a></li>
-			<li><a href=""><i class="ion-man izq"></i>Sobre Mi</a></li>
-			<li><a href=""><i class="ion-settings izq"></i>Tutoriales	</a></li>
+			<li><a href="../index.php"><i class="ion-android-home izq "></i>Inicio</a></li>
+			<li><a href="../"><i class="ion-briefcase izq"></i>Portafolio</a></li>
+			<li><a href="../"><i class="ion-man izq"></i>Sobre Mi</a></li>
+			<li><a href="../"><i class="ion-settings izq"></i>Tutoriales	</a></li>
+			<li><a href="../logout.php"><i class="ion-log-out izq"></i> Cerrar Sesión</a></li>
 		</ul>
 	</nav>
 	<div class="navegacionmoblie">
@@ -53,6 +57,7 @@
 				<li><a href=""><i class="ion-briefcase izq"></i>Portafolio</a></li>
 				<li><a href=""><i class="ion-man izq"></i>Sobre Mi</a></li>
 				<li><a href=""><i class="ion-settings izq"></i>Tutoriales	</a></li>
+				<li><a href="../logout.php"><i class="ion-log-out izq"></i> Cerrar Sesión</a></li>
 			</ul>
 		</div>
 	</div>
